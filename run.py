@@ -9,7 +9,7 @@ from moviepy.editor import VideoFileClip, concatenate_videoclips, CompositeVideo
 
 def getURLs():
     f = open("../TWITCHCLIPDOWNLOADER/videourls.txt","w")
-    client = TwitchClient(client_id="nn7vv9k6ulqrjutmthwys0ew2epic5",oauth_token="uwhsyzgiy08i40tsc620l6uejd96ds")
+    client = TwitchClient(client_id="CLIENT_ID",oauth_token="CLIENT_TOKEN")
     liste = client.clips.get_top(game="Valorant",period="day",limit=3,trending=False)
     for i in range(0,len(liste)):
         print("İzlenme Sayisi: {} --- URL: {}".format(liste[i]["views"],liste[i]["url"]))
