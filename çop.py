@@ -5,7 +5,7 @@ import glob
 from moviepy.editor import VideoFileClip, concatenate_videoclips, CompositeVideoClip
 #def getURLsOwner():
 #    f = open("../TWITCHCLIPDOWNLOADER/ownerurls.txt","w")
-#    client = TwitchClient(client_id="nn7vv9k6ulqrjutmthwys0ew2epic5",oauth_token="uwhsyzgiy08i40tsc620l6uejd96ds")
+#    client = TwitchClient(client_id="CLIENT_ID",oauth_token="CLIENT_TOKEN")
 #    liste = client.clips.get_top(game="Valorant",period="day",limit=10,trending=False)
 #    for i in range(0,len(liste)):
 #        if(i < len(liste)):
